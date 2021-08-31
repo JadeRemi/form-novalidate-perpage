@@ -8,9 +8,9 @@
     "activeTab"
   ],
   "browser_action": {
-    "name": "Remove HTML5 Form validation",
+    "name": "Form novalidate param",
     "default_icon": "images/icon.png",
-    "default_title": "Remove HTML5 Form validation"
+    "default_title": "Form novalidate param"
   },
   "background": { "scripts": ["app.js"], "persistent": false },
   "manifest_version": 2
