@@ -1,0 +1,17 @@
+{
+  "name": "Form novalidate param",
+  "description": "HTML5 plugin adding the novalidate param for all forms",
+  "author": "Jade Remi",
+  "version": "1.0",
+  "homepage_url": "https://github.com/JadeRemi/form-novalidate-perpage",
+  "permissions": [
+    "activeTab"
+  ],
+  "browser_action": {
+    "name": "Remove HTML5 Form validation",
+    "default_icon": "images/icon.png",
+    "default_title": "Remove HTML5 Form validation"
+  },
+  "background": { "scripts": ["app.js"], "persistent": false },
+  "manifest_version": 2
+}
